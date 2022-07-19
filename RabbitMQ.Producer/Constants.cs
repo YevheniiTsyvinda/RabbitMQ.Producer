@@ -12,6 +12,11 @@ namespace RabbitMQ.Producer
        internal const string _queueName = "demo-queue";
        internal const string _directExchange = "demo-direct-exchange";
         internal const string _accountInit = "account.init";
-
+        internal const string _topicExchange = "demo-topic-exchange";
+        internal const string _topicQueue = "demo-topic-queue";
+        internal const string _headerExchange = "demo-header-exchange";
+        internal const string _headerQueue = "demo-header-queue";
+        internal const string _fanoutExchange = "demo-fanout-exchange";
+        internal const string _fanoutQueue = "demo-fanout-queue";
     }
 }
