@@ -14,7 +14,7 @@ internal class DirectExchangePublisher
     {
         var ttl = new Dictionary<string, object>
         {
-            {"x-message-ttl",30000 }
+            {"x-message-ttl",30000 }//ttl - time to live
         };
 
         channel.ExchangeDeclare(Constants._directExchange, ExchangeType.Direct,arguments: ttl);
